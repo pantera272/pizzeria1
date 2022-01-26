@@ -30,6 +30,11 @@ export const select = {
     peopleAmount: '.people-amount',
     hoursAmount: '.hours-amount',
     tables: '.floor-plan .table',
+    floorPlan : '.floor-plan',
+    sendBooking : '.order-confirmation button',
+    phone : '[name="phone"]',
+    address: '[name="address"]',
+    starter: '[name="starter"]',
   },
   widgets: {
     amount: {
@@ -80,6 +85,8 @@ export const classNames = {
   booking: {
     loading: 'loading',
     tableBooked: 'booked',
+    select: 'select',
+    table: 'table',
   },
   nav: {
     active: 'active',
@@ -102,8 +109,8 @@ export const settings = {
     url: '//localhost:3131',
     products: 'products',
     orders: 'orders',
-    booking: 'booking',
-    event: 'event',
+    booking: 'bookings',
+    event: 'events',
     dateStartParamKey: 'date_gte',
     dateEndParamKey: 'date_lte',
     notRepeatParam: 'repeat=false',

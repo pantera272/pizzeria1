@@ -173,6 +173,13 @@
       }
 
     }
+    
+    &.select {
+      cursor: pointer;
+      color: black;
+      background: green;
+      opacity: 0.6;
+    }
   }
 
   [data-table="1"] {
