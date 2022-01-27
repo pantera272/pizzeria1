@@ -24,7 +24,7 @@ export const select = {
     cartButton: '[href="#add-to-cart"]',
   },  
   nav: {
-    links: '.main-nav a',
+    links: '.main-nav a, .order a',
   },
   booking: {
     peopleAmount: '.people-amount',

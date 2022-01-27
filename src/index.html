@@ -9,6 +9,8 @@
   <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <link rel="stylesheet" href="./vendor/range-slider.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,6 +23,7 @@
           <h2 class="logo__subtitle">the best homemade Italian food</h2>
         </div>
         <div class="main-nav">
+          <a href="#home">Home</a>
           <a href="#order">Order</a>
           <a href="#booking">Booking</a>
         </div>
@@ -62,6 +65,108 @@
   </header>
 
   <div id="pages">
+    <section id="home">
+      <div class="home container">
+        <div class="order-box">
+          <div class="order"> 
+            <div class="order-online">
+              <a href="#order">
+                <h2>Order online</h2>
+                <p>Delicius food delivery to jour door</p>
+              </a>
+            </div> 
+            <div class="book-table">
+              <a href="#booking">
+                <h2>Book a table</h2>
+                <p>Delivery to your door</p>
+              </a>  
+            </div>
+          </div>
+          <div class="open">
+            <h1>Opening Hours:</h1>
+            <p>Mon-Sun, 12pm-11pm</p>
+          </div>
+        </div>
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay": true, "prevNextButtons":false }'>
+          <div class="carousel-cell">
+            <div class="carousel-content">
+              <img class="carousel-img" src="images/home/pizza-3.jpg">
+              <div class="carousel-description">
+                <h3>Amazing Service</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p>Margaret Osborn</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carousel-content">
+              <img class="carousel-img" src="images/home/pizza-3.jpg">
+              <div class="carousel-description">
+                <h3>The best food</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p>Henry Gorn</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell">
+            <div class="carousel-content">
+              <img class="carousel-img" src="images/home/pizza-3.jpg">
+              <div class="carousel-description">
+                <h3>Fast delivere</h3>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p>Rudolf</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="gallery-row">
+            <div class="foto f1">
+              <div class="foto-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+            <div class="foto f2">
+              <div class="foto-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+            <div class="foto f3">
+              <div class="foto-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="gallery-row">
+            <div class="foto f4">
+              <div class="foto-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+            <div class="foto f5">
+              <div class="foto-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+            <div class="foto f6">
+              <div class="foto-icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-share-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="insta">
+          <a href="instagram.com">View more on instagram</a>
+        </div>
+      </div>
+     
+    </section>
     <section id="order">
       <div id="product-list" class="product-list container"></div>
     </section>
@@ -246,6 +351,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <script src="./vendor/range-slider.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="js/app.js" type="module"></script>
 </body>
 </html>

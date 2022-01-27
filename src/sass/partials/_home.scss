@@ -1,0 +1,214 @@
+.home {
+  .order{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 700px;
+    margin-top: 30px;
+    padding-top: 50px;
+  }
+}
+
+.order-online{
+  width: 300px;
+  height: 120px;
+  background-image: url("../images/home/pizza-1.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  margin-left: 45px;
+  margin-right: 10px;
+  cursor: pointer;
+
+  a{
+    text-decoration: none;
+    color: white;
+    h2{
+      padding: 10px 0;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    p{ 
+      display: none;
+      margin-top: -20px;
+    }
+  } 
+}
+
+.order-online:hover > a {
+  h2{
+    transition-timing-function: ease-in;
+    transition-property: margin-top;
+    transition-duration: 0.25s;
+    margin-top: -10px;
+  }   
+  p{
+    display: block; 
+  }
+}
+
+.book-table{
+  width: 300px;
+  height: 120px;
+  background-image: url("../images/home/pizza-2.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+
+  a{
+    text-decoration: none;
+    color: white;
+    h2{
+      padding: 10px 0;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+
+    p{ 
+      display: none;
+      margin-top: -20px;
+    }
+  } 
+}
+
+.book-table:hover > a {
+  h2{
+    transition-timing-function: ease-in;
+    transition-property: margin-top;
+    transition-duration: 0.25s;
+    margin-top: -10px;
+  }   
+  p{
+    display: block; 
+  }
+}
+
+.book-table:hover >p {
+  display: block;  
+}
+
+.open{
+  height: 120px;
+  width: 610px;
+  margin-left: 45px;
+  margin-top: -15px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ff6b6b;
+  color: white;  
+
+  h1{
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size:30px;
+  }
+
+  p{
+    margin-top: -30px;
+    text-transform: uppercase;
+  }
+}
+
+.main-carousel{
+  width: 610px;
+  margin-left: 45px;
+  margin-top: 80px;
+}
+
+.carousel-cell{
+  height: 190px;
+  width: 610px;
+}
+
+.carousel-content{
+  display: flex;
+}
+
+.carousel-img{
+  height: 190px;
+  width: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.carousel-description{
+  margin: 0 20px;
+}
+
+.gallery{
+  margin-top: 100px;
+  width: 610px;
+}
+
+.gallery-row{
+  margin-top: 10px;
+  margin-left: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.foto{
+  width: 190px;
+  height: 190px;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.f1{
+  background-image: url("../images/home/pizza-4.jpg");
+}
+.f2{
+  background-image: url("../images/home/pizza-5.jpg");
+}
+.f3{
+  background-image: url("../images/home/pizza-6.jpg");
+}
+.f4{
+  background-image: url("../images/home/pizza-7.jpg");
+}
+.f5{
+  background-image: url("../images/home/pizza-8.jpg");
+}
+.f6{
+  background-image: url("../images/home/pizza-9.jpg");
+}
+
+.insta{
+  margin-top: 10px;
+  margin-left: 45px;
+  a{
+    color: #ff6b6b;
+  }
+}
+
+i{
+  font-size: 30px;
+  padding-top: 50%;
+  margin-top: -15px;
+  cursor: pointer;
+  display: none;
+}
+i:hover{
+  color:#ff6b6b;
+}
+
+.foto-icon{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  border-radius: 5px;
+  position: relative;
+  display: block;
+  text-align: center; 
+  color: rgba(255,255,255,0); 
+}
+
+.foto-icon:hover{
+  display: block;
+  background-color: rgba(0,0,0,0.4);
+  color: rgba(255,255,255,1);
+}
+
